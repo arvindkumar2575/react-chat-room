@@ -9,13 +9,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { useCollectionData } from "react-firebase-hooks/firestore";
 
 firebase.initializeApp({
-  apiKey: "AIzaSyBG02uu7E27PvhxLg1OjBmW8okOcttFV2I",
-  authDomain: "react-chat-app-1.firebaseapp.com",
-  projectId: "react-chat-app-1",
-  storageBucket: "react-chat-app-1.appspot.com",
-  messagingSenderId: "272103489397",
-  appId: "1:272103489397:web:5adcd3ecffe6db9423dd3c",
-  measurementId: "G-CZNN2F8QQX",
+  //add your firebase url
 });
 
 const auth = firebase.auth();
